@@ -1,6 +1,5 @@
 package com.example.koltinlearn
 
-import com.sun.corba.se.spi.orbutil.threadpool.Work
 
 interface Worker{
     fun work()

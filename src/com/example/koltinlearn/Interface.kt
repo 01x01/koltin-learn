@@ -17,6 +17,10 @@ class Chrome (override val name : String) : Browser {
     override fun close() {
         println("chrome close browser")
     }
+
+    override fun open() {
+        super.open()
+    }
 }
 
 interface Named {
